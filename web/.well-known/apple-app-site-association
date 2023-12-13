@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+      "details": [
+           {
+             "appID":  "WQZP98NKJH.com.example.iosUniversalLink",
+             "paths": [
+                "*"
+             ]
+           }
+       ]
+   }
+}
