@@ -2,10 +2,14 @@
     ForceType application/json
 </FilesMatch> -->
 
-<Files "apple-app-site-association">
+<!-- <Files "apple-app-site-association">
     ForceType 'application/json'
-</Files>
+</Files> -->
 
 <!-- <FilesMatch "^apple-app-site-association$">
     ForceType application/json
 </FilesMatch> -->
+
+<Files "apple-app-site-association">
+    Header set Content-type 'application/json'
+</Files>
