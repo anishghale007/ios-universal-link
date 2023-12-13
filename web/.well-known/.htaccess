@@ -5,3 +5,7 @@
 <Files "apple-app-site-association">
     ForceType 'application/json'
 </Files>
+
+<!-- <FilesMatch "^apple-app-site-association$">
+    ForceType application/json
+</FilesMatch> -->
